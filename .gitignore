@@ -1,0 +1,55 @@
+# --- Python cache / build files ---
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual environments ---
+
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE / editor settings ---
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# --- Logs / temp files ---
+
+*.log
+*.tmp
+*.bak
+
+# --- Test / coverage artifacts ---
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- OS-specific ---
+
+Thumbs.db
+.DS_Store
+ehthumbs.db
+
+# --- Optional: Jupyter notebooks / large data ---
+
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Custom project artifacts ---
+
+/data/
+/output/
+/**init**.py.backup
