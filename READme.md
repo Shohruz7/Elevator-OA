@@ -1,4 +1,4 @@
-Elevator Simulator — Bluestaq Take-Home Challenge (Back-End)
+##Elevator Simulator — Bluestaq Take-Home Challenge (Back-End)
 
 
 
@@ -12,8 +12,11 @@ It simulates a single elevator system that processes floor requests, moves betwe
 The simulator models:
 
 Elevator state – current floor, direction, pending requests.
+
 Request types – hall up/down calls and internal (inside elevator) requests.
+
 Scheduler logic – continues moving in the current direction until all requests in that direction are served, then reverses if needed.
+
 Door behavior – configurable open time per stop.
 
 
@@ -73,3 +76,4 @@ Class	Description
 Request	Represents a hall or internal call (floor, type, timestamp).
 Elevator	Maintains state, moves between floors, opens doors, and tracks pending requests.
 ElevatorController	Manages time ticks, request submission, and orchestrates the elevator’s behavior.
+
