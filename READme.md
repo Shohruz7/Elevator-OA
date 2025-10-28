@@ -20,19 +20,7 @@ Door behavior – configurable open time per stop.
 
 The design is modular and extensible for adding more elevators or advanced scheduling later.
 
-🏗️ Project Structure
-elevator_simulator/
-├─ elevator_simulator/
-│  ├─ __init__.py
-│  ├─ requests.py        # Request dataclass + enums
-│  ├─ elevator.py        # Elevator logic
-│  ├─ controller.py      # ElevatorController (tick + request handling)
-│  └─ cli.py             # Demo / CLI runner
-├─ tests/
-│  └─ test_elevator.py   # Basic pytest unit tests
-├─ README.md
-└─ requirements.txt
-
 ⚙️ Requirements
 Python 3.9+
 (Optional) pytest for running unit tests
+
